@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="menu.js" defer></script>
+    <script src="script.js" defer></script>
+    <title>Rebeca K. Lopes</title>
+</head>
+<body>
+    <header>
+        <div class="container-header">
+            <div class="logo">
+                <a href="#">
+                    <img src="imagens/logo.png" alt="logo">
+                </a>
+            </div> <!--logo-->
+
+            <nav class="menu-destop">
+                <ul>
+                    <li><a href="#">sessão 1</a></li>
+                    <li><a href="#">sessão 2</a></li>
+                    <li><a href="#">Sessão 3</a></li>
+                    <li><a href="#">Sessão 4</a></li>
+                    <li><a href="#">Sessão 5</a></li>
+                    <li><a href="#">Sessão 6</a></li>
+                    <li><a href="#">Sessão 7</a></li>
+
+                </ul>
+            </nav>
+
+            <div class="btn-abrir-menu" id="btn-menu">
+                <i class="bi bi-list"></i>
+            </div>
+            
+            <div class="menu-mobile" id="menu-mobile">
+                <div class="btn-fechar">
+                    <i class="bi bi-x"></i>
+                </div>
+
+                <nav>
+                    <ul>
+                        <li><a href="#">sessão 1</a></li>
+                        <li><a href="#">sessão 2</a></li>
+                        <li><a href="#">Sessão 3</a></li>
+                        <li><a href="#">Sessão 4</a></li>
+                        <li><a href="#">Sessão 5</a></li>
+                        <li><a href="#">Sessão 6</a></li>
+                        <li><a href="#">Sessão 7</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="overlay-menu" id="overlay-menu"></div>
+        </div> <!--topo-->
+    </header>
+
+    <main>
+        <section class="banner">
+            <div class="banner-image" id="topo"></div>
+        </section>
+
+        <section class="classificacao-container">
+            <h1>Classificação 2024</h1>
+            <div class="classificacao">
+                <img src="/imagens/classificação-1.png" alt="">
+                <img src="/imagens/classificação-2.png" alt="">
+            </div>
+        </section>
+
+        <section class="projetos" id="projetos">
+            <h1> Confira <span>nossas equipes</span></h1>
+            <div class="img-proj">
+                <div class="wrapper">
+                    <i id="left" class="bi bi-chevron-left"></i>
+                    <div class="carrossel">
+                        <img src="imagens/aston-martin.png" alt="" draggable="false">
+                        <img src="imagens/red_bull_racing.png" alt="" draggable="false">
+                        <img src="imagens/c382981b08ff216e25371bfa3ffeb404.png" alt="" draggable="false">
+                        <img src="imagens/ferrari-0٧.png" alt="" draggable="false">
+                        <img src="imagens/McLaren-logo-1997-1920x1080_if3qlhwx.png" alt="" draggable="false">
+                    </div>
+                    <i id="right" class="bi bi-chevron-right"></i>
+                </div>
+            </div>
+        </section>
+
+        <section class="container-principal">
+            <div class="container-sobre">
+                <h2>Uma história de sucesso</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed libero id augue vehicula gravida. In nisi arcu, laoreet ac malesuada eu, congue eget eros. Praesent congue purus eu ligula ultrices volutpat. Suspendisse quis velit id augue sodales consectetur.
+                ent congue purus eu ligula ultrices volutpat. Suspendisse quis velit id augue sodales consectetur.</p>
+            </div>
+
+            <div class="formulario">
+                <h2>Fale <span>Conosco</span></h2>
+
+                <form action="https://api.staticforms.xyz/submit" method="post">
+                    <input type="text" name="name" id="" placeholder="Digite seu nome" required>
+                    <input type="email" name="email" id="" placeholder="Digite seu e-mail" required>
+                    <input type="tel" name="phone" id="" placeholder="Digite seu celular" required>
+
+                    <div class="btn-enviar">
+                        <input type="submit" value="Enviar">
+                    </div>
+                    <input type="hidden" name="accessKey" value="0f0a0f44-0c9a-4b07-8ac2-e074c28bfcbb">
+                    <input type="hidden" name="redirectTo" value="https://rebeca-kethelyn.github.io/pinturas-projeto/contato">
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container-footer">
+            <div class="row">
+                <div class="colum-footer">
+                    <h4>Busque por sessões</h4>
+                    <ul>
+                        <li><a href="#container-servicos">Nossos serviços</a></li>
+                        <li><a href="#sobre">Sobre nós</a></li>
+                        <li><a href="#projetos">Projetos</a></li>
+                        <li><a href="#diferenciais">Nossos Diferenciais</a></li>
+                    </ul>
+                </div>
+                <div class="colum-footer colum-contact">
+                    <h4>Contato</h4>
+                    <a href="#">Telefone: (xx) xxxxx-xxxx</a> <br>
+                    <a href="#">Whats: (xx) xxxxx-xxxx</a>
+                    <p>Rua xxxxx xxxx - PR</p>
+                </div>
+                <div class="colum-footer">
+                    <h4>Nossas redes sociais</h4>
+                    <div class="redes-sociais-footer">
+                        <a href="#" target="_blank"><i class="bi bi-instagram"></i></a>
+                        <a href="https://api.whatsapp.com/send?phone=554384043809" target="_blank"><i class="bi bi-whatsapp"></i></a>
+                    </div>
+            </div>
+        </div>
+        <p class="copy">Todos os direitos reservados &copy; Rebeca kethelyn</p>
+    </footer>
+</body>
+</html>
