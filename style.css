@@ -387,7 +387,6 @@ footer a:visited{
     font-size: 24px;
     border-radius: 50%;
     padding: 10px;
-    margin-right: 5px;
     transition: all 0.5s ease;
 }
 
@@ -453,6 +452,7 @@ footer .copy{
        .colum-footer{
         width: 100%;
         text-align: center;
+        padding-top: 30px;
     }
 
     .row{
@@ -463,8 +463,5 @@ footer .copy{
         left: 50%;
         width: 10px;
     }
-    
-    .redes-sociais-footer{
-        margin-left: 10%;
-    }
+
 }
