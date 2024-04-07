@@ -404,14 +404,15 @@ footer .copy{
 
 
 @media screen and (max-width: 1050px){
-    .classificacao img{
+    .classificacao{
         margin: 0;
+        width: 90vw;
     }
 
 }
 
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 900px){
     /* header */
     .menu-destop, .btn-contato{
         display: none;
