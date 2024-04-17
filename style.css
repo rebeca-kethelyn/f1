@@ -465,4 +465,8 @@ footer .copy{
         width: 10px;
     }
 
+    .classificacao img{
+        max-width: 90%;
+    }
+
 }
